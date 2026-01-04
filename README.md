@@ -19,22 +19,11 @@ The system is implemented as a virtual prototype on an Arduino Uno, utilizing ad
 * **Non-Blocking Execution:** The "Length of Stay" timer is implemented using the `millis()` function, ensuring the system remains responsive to sensor inputs while updating the clock.
 * **Automated Actuation:** Motion detection (simulated via push button) triggers the **DC Motor (Fan)** and **Bar LEDs (Lighting)** only when occupancy is detected, demonstrating energy-efficient logic.
 
-## System Architecture & Logic
-The project followed a formal "Design-and-Simulate" workflow to verify system reliability.
-
-### System Architecture
-![System Architecture](Diagrams/System-Architecture-Block-Diagram.png)
-*Figure 1: High-level block diagram defining the Input, Processing, and Output stages.*
-
-### Software Logic
-![Software Flowchart](Diagrams/Software-Logic-Flowchart.png)
-*Figure 2: Comprehensive software flowchart illustrating the authentication loop and environmental control logic.*
-
-## 📊 Simulation Results
+## Simulation Results
 ![Project Demonstration](Working%20Image%20Proteus.png)
-*Figure 3: Virtual prototype demonstration in Proteus showing the 'Access Granted' state with active timer and temperature display.*
+*Figure 1: Virtual prototype demonstration in Proteus showing the 'Access Granted' state with active timer and temperature display.*
 
-## 📂 Repository Contents
+## Repository Contents
 * **`Project-Report.pdf`**: Comprehensive technical documentation including simulation steps and results.
 * **`Arduino-Sketch.ino`**: Core C++ firmware optimized for Proteus-based peripheral interfacing.
 * **`Diagrams/`**: High-resolution System Architecture and Software Flowchart images.
